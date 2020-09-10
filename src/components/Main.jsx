@@ -278,7 +278,7 @@ class Main extends Component {
 							<div className="row">
 								<div className="col-md-6">
 									<div className="card">
-										<img className="card-img-top" src="img/warstrike.png" alt="Card image" />
+										<img className="card-img-top" src="img/warstrike.PNG" alt="Card image" />
 										<div className="card-body">
 											<h4 className="card-title">Warstrike</h4>
 											<p className="card-text">
