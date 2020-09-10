@@ -1,0 +1,82 @@
+#projects {
+	background: rgb(10, 25, 47);
+	padding: 0;
+	align-items: center !important;
+	display: flex !important;
+}
+
+#projects .projects-info {
+	position: relative;
+	width: 100%;
+	align-items: center !important;
+	background: rgb(10, 25, 47) no-repeat top center;
+	background-size: cover !important;
+	-webkit-background-size: cover !important;
+	overflow: hidden;
+	display: inline-block;
+	vertical-align: middle;
+	padding-top: 100px;
+}
+
+#projects .projects-info h1 {
+	font-family: 'Rubik', sans-serif;
+	font-size: 36px;
+	font-weight: 600;
+	color: white;
+	position: relative;
+}
+
+#projects .projects-info .spacer {
+	height: 60px;
+}
+
+.card {
+	background-color: rgb(8, 19, 32) !important;
+	border-radius: 20px !important;
+	box-shadow: rgba(255, 255, 255, 0.01) 0px 5px 20px 0px;
+}
+
+.card-img-top {
+	border-radius: 20px 20px 0px 0px !important;
+	height: 300px;
+}
+
+.card-title {
+	font-family: 'Rubik', sans-serif;
+	font-weight: 600;
+	font-size: 20px;
+	color: white;
+}
+
+#projects .btn {
+	border-radius: 30px;
+	font-family: "Rubik", sans-serif;
+	font-size: 16px;
+	font-weight: 700;
+	overflow: hidden;
+	line-height: 1;
+	padding: 12px 32px;
+	position: relative;
+	margin-right: 10px;
+}
+
+#projects .btn-default {
+	color: #fff;
+	background: rgb(32, 218, 131);
+	display: inline-block;
+	vertical-align: middle;
+	position: relative;
+	-webkit-transform: perspective(1px) translateZ(0);
+	transform: perspective(1px) translateZ(0);
+	box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+
+#projects .btn-default:hover {
+	color: rgb(32, 218, 131);
+	background: white;
+
+	-webkit-transition: all .3s ease-in-out;
+	-moz-transition: all .3s ease-in-out;
+	-o-transition: all .3s ease-in-out;
+	transition: all .3s ease-in-out;
+}
