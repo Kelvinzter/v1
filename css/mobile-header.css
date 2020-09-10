@@ -1,0 +1,61 @@
+header.mobile-header {
+	background: rgb(10, 25, 47);
+	display: none;
+	padding: 10px 0;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+	transition: 0.5s;
+}
+
+header.mobile-header .site-logo h1 {
+	font-family: 'Rubik', sans-serif;
+	font-weight: 600;
+	color: White;
+}
+
+header.mobile-header .site-logo {
+	display: inline-block;
+}
+
+header.mobile-header .site-logo .logo-dot {
+	color: rgb(32, 218, 131);
+}
+
+header.mobile-header .menu-icon button {
+	background: transparent;
+	border: 0;
+	outline: 0;
+	color: white;
+	cursor: pointer;
+	height: 33px;
+	width: 33px;
+}
+
+header.mobile-header .menu-icon button i {
+	font-size: 33px;
+}
+
+.mr-4 {
+	margin-right: 1.5rem !important;
+}
+
+.d-inline-flex {
+	display: -ms-inline-flexbox !important;
+	display: inline-flex !important;
+}
+
+@media only screen and (max-width: 991px) {
+	header.mobile-header {
+		display: block;
+	}
+}
+
+header.mobile-header.open {
+	-webkit-transform: translateX(290px);
+	-moz-transform: translateX(290px);
+	-ms-transform: translateX(290px);
+	-o-transform: translateX(290px);
+	transform: translateX(290px);
+	transition: 0.5s;
+}

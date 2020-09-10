@@ -1,0 +1,114 @@
+/* Importing Fonts */
+@import url("https://fonts.googleapis.com/css?family=Rubik:300,300i,400,400i,500,500i,700,700i,900,900i&display=swap&subset=cyrillic");
+
+@font-face {
+	font-family: "SF Mono";
+	src: url(../fonts/SFMono/SFMonoRegular.otf) format('opentype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+p {
+	font-family: 'Rubik', sans-serif;
+	color: white;
+	font-size: 16px;
+	text-align: justify;
+}
+
+#about {
+	background: rgb(10, 25, 47);
+	padding: 0;
+	align-items: center !important;
+	display: flex !important;
+}
+
+#about .about-info {
+	position: relative;
+	width: 100%;
+	align-items: center !important;
+	background: rgb(10, 25, 47) no-repeat top center;
+	background-size: cover !important;
+	-webkit-background-size: cover !important;
+	overflow: hidden;
+	display: inline-block;
+	vertical-align: middle;
+	padding-top: 100px;
+}
+
+#about .about-info h1 {
+	font-family: 'Rubik', sans-serif;
+	font-size: 36px;
+	font-weight: 600;
+	color: white;
+	position: relative;
+}
+
+#about .about-info .spacer {
+	height: 60px;
+	background: none;
+}
+
+#about .profilepic {
+	width: 140px;
+	height: auto;
+	border-radius: 50%;
+	vertical-align: middle;
+}
+
+#about .info-box {
+	background: rgb(8, 19, 32);
+	padding: 30px;
+	border-radius: 20px !important;
+	box-shadow: rgba(255, 255, 255, 0.01) 0px 5px 20px 0px;
+}
+
+#about .btn {
+	border-radius: 30px;
+	font-family: "Rubik", sans-serif;
+	font-size: 16px;
+	font-weight: 700;
+	overflow: hidden;
+	line-height: 1;
+	padding: 12px 32px;
+	position: relative;
+}
+#about .btn-default {
+	color: #fff;
+	background: rgb(32, 218, 131);
+	display: inline-block;
+	vertical-align: middle;
+	position: relative;
+	-webkit-transform: perspective(1px) translateZ(0);
+	transform: perspective(1px) translateZ(0);
+	box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+
+#about .btn-default:hover {
+	color: rgb(32, 218, 131);
+	background: white;
+
+	-webkit-transition: all .3s ease-in-out;
+	-moz-transition: all .3s ease-in-out;
+	-o-transition: all .3s ease-in-out;
+	transition: all .3s ease-in-out;
+}
+
+.fa-ul li i {
+	color: rgb(32, 218, 131);
+}
+
+.text-center {
+	text-align: center;
+}
+
+@media (min-width: 768px) {
+	.text-md-left {
+		text-align: left !important;
+	}
+}
+
+@media (min-width: 768px) {
+	.d-md-none {
+		display: none !important;
+	}
+}

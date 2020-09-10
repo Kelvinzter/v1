@@ -1,0 +1,107 @@
+#contact {
+	background: rgb(10, 25, 47);
+	padding: 0;
+	align-items: center !important;
+	display: flex !important;
+}
+
+#contact .contact-info .spacer {
+	height: 60px;
+}
+
+#contact .contact-info {
+	position: relative;
+	width: 100%;
+	align-items: center !important;
+	background: rgb(10, 25, 47) no-repeat top center;
+	background-size: cover !important;
+	-webkit-background-size: cover !important;
+	overflow: hidden;
+	display: inline-block;
+	vertical-align: middle;
+	padding-top: 100px;
+}
+
+#contact .contact-info h1 {
+	font-family: 'Rubik', sans-serif;
+	font-size: 36px;
+	font-weight: 600;
+	color: white;
+	position: relative;
+}
+
+#contact .contact-info .spacer {
+	height: 60px;
+}
+
+.contact-description {
+	text-align: center;
+	max-width: 720px;
+	margin: 0 auto;
+}
+
+.contact-description p {
+	font-family: 'Rubik', sans-serif;
+	color: white;
+	font-size: 16px;
+	text-align: center;
+}
+
+.contact-description h3 {
+	font-family: 'Rubik', sans-serif;
+	font-size: 24px;
+	font-weight: 600;
+	color: white;
+}
+
+.contact-description a {
+	text-decoration: none;
+	color: rgb(32, 218, 131);
+}
+
+.contact-description a:hover {
+	text-decoration: none;
+	color: white;
+
+	-webkit-transition: color .2s ease-in-out;
+	-moz-transition: color .2s ease-in-out;
+	-o-transition: color .2s ease-in-out;
+	-ms-transition: color .2s ease-in-out;
+	transition: color .2s ease-in-out;
+}
+
+#contact .btn {
+	border-radius: 30px;
+	font-family: "Rubik", sans-serif;
+	font-size: 16px;
+	font-weight: 700;
+	overflow: hidden;
+	line-height: 1;
+	padding: 12px 32px;
+	position: relative;
+}
+#contact .btn-default {
+	color: #fff;
+	background: rgb(32, 218, 131);
+	display: inline-block;
+	vertical-align: middle;
+	position: relative;
+	-webkit-transform: perspective(1px) translateZ(0);
+	transform: perspective(1px) translateZ(0);
+	box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+
+#contact .btn-default:hover {
+	color: rgb(32, 218, 131);
+	background: white;
+
+	-webkit-transition: all .3s ease-in-out;
+	-moz-transition: all .3s ease-in-out;
+	-o-transition: all .3s ease-in-out;
+	transition: all .3s ease-in-out;
+}
+
+#spacer .spacer {
+	height: 50px;
+	background: rgb(10, 25, 47);
+}
